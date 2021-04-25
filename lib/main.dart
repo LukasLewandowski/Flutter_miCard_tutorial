@@ -35,7 +35,56 @@ class MyApp extends StatelessWidget {
                         color: Colors.teal.shade100,
                         letterSpacing: 2,
                         fontWeight: FontWeight.bold),
-                  )
+                  ),
+                  Container(
+                    color: Colors.white,
+                    padding: EdgeInsets.all(10.0),
+                    margin:
+                        EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                    child: Row(
+                      children: [
+                        Icon(
+                          Icons.phone,
+                          color: Colors.teal,
+                        ),
+                        SizedBox(
+                          width: 10.0,
+                        ),
+                        Text(
+                          '+ 48 123 456 789',
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                              color: Colors.teal.shade900,
+                              fontFamily: 'SourceSansPro',
+                              fontSize: 18.0),
+                        )
+                      ],
+                    ),
+                  ),
+                  Container(
+                    color: Colors.white,
+                    padding: EdgeInsets.all(10.0),
+                    margin:
+                        EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                    child: Row(
+                      children: [
+                        Icon(
+                          Icons.email,
+                          color: Colors.teal,
+                        ),
+                        SizedBox(
+                          width: 10.0,
+                        ),
+                        Text(
+                          'inuvqwaqjxmhkjkhkz@miucce.com',
+                          style: TextStyle(
+                              color: Colors.teal.shade900,
+                              fontFamily: 'SourceSansPro',
+                              fontSize: 18.0),
+                        )
+                      ],
+                    ),
+                  ),
                 ],
               ),
             ),
